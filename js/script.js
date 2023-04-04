@@ -1,7 +1,7 @@
-// Copyright (c) 2022 ZoiaB All rights reserved
+// Copyright (c) 2023 ZoiaB All rights reserved
 //
 // Created by: ZoiaB
-// Created on: Apr 2022
+// Created on: Apr 2023
 // This file contains the JS functions for index.html
 
 "use strict"
@@ -16,5 +16,5 @@ function functionCalculate() {
   let volume = radiusSphere ** 3 * pi * 4 / 3;
 
   // Display to user
-  document.getElementById("display-results").innerHTML = "The volume of the sphere is " + volume.toFixed(2) + "cm<sup>3</sup>.";
+  document.getElementById("display-results").innerHTML = "The volume of the sphere is " + volume.toFixed(2) + "cm<sup>3</sup>."
 }
