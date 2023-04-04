@@ -6,9 +6,15 @@
 
 "use strict"
 
-function radiusCalculate() {
+function functionCalculate() {
+
+  // Declaring variables
   let radiusSphere = parseFloat(document.getElementById("radius").value);
   const pi = Math.PI;
+
+  // Calculation
   let volume = radiusSphere ** 3 * pi * 4 / 3;
-  document.getElementById("results").innerHTML = "The volume of the sphere is " + volume.toFixed(2) + "cm<sup>3</sup>.";
+
+  // Display to user
+  document.getElementById("display-results").innerHTML = "The volume of the sphere is " + volume.toFixed(2) + "cm<sup>3</sup>.";
 }

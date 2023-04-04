@@ -5,7 +5,7 @@
 */
 
 body {
-  background-color: #a2ae47;
+  background-color: #7bccb1;
   width: 80%;
   margin: 5% 10%;
 }
@@ -28,6 +28,6 @@ form {
 }
 
 h3 {
-background-color: #1293e2;
-text-align: center;
+  background-color: #1293e2;
+  text-align: center;
 }
